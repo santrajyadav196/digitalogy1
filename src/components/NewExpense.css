@@ -1,3 +1,22 @@
+.Whole-Rectangle {
+  width: 1233px;
+  height: 886px;
+  margin: 47px 67px 0 66px;
+  padding: 30px 30px 30px 23px;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(17, 17, 17, 0.2);
+  background-color: #fff;
+}
+
+.Left-Rectangle {
+  width: 540px;
+  height: 826px;
+  margin: 0 30px 0 0;
+  text-align: center;
+  padding: 301px 106px 300px 107px;
+  background-color: #f6f7fb;
+}
+
 .New-Expense {
   width: 120px;
   height: 30px;

@@ -24,8 +24,8 @@ const NewExpense = (props) => {
     return (
         <>
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-6">col-sm-6</div>
+                <div className="row Whole-Rectangle">
+                    <div className="col-sm-6 Left-Rectangle">col-sm-6</div>
                     <div className="col-sm-6">
                         <div>
                             <span className="New-Expense">
