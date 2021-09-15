@@ -1,0 +1,240 @@
+.New-Expense {
+  width: 120px;
+  height: 30px;
+  margin: 25px 25px 6px 2px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Shape {
+  width: 10px;
+  height: 30px;
+  margin: 25px 0 6px 380px;
+}
+
+.Assign-To {
+  width: 100px;
+  height: 30px;
+  margin: 12px 0 0 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Assign-To-Rectangle {
+  width: 540px;
+  height: 50px;
+  margin: 6px 2px 6px 2px;
+  padding: 8px 410px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Tax-deducitble {
+  width: 100px;
+  height: 30px;
+  margin: 6px 50px 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* color: #6d5ed3; */
+}
+
+.Tax-deducitble-Rectangle {
+ width: 18px;
+ height: 18px;
+ margin: 6px 2px 6px 2px;
+  /* background-color: #6d5ed3; */
+}
+
+.Billable-to-client {
+  width: 120px;
+  height: 30px;
+  margin: 6px 0 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* color: #6d5ed3; */
+}
+
+.Billable-to-client-Rectangle {
+ width: 18px;
+ height: 18px;
+ margin: 6px 0 6px 2px;
+  /* background-color: #6d5ed3; */
+}
+
+.Total {
+  width: 25px;
+  height: 30px;
+  margin: 6px 0 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Total-Rectangle {
+  width: 255px;
+  height: 50px;
+  margin: 6px 0 6px 2px;
+  padding: 8px 8px 8px 14px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Total-Selector {
+  margin-left: -114px;
+}
+
+.Total-Selector-Rectangle {
+  width: 80px;
+  height: 38px;
+  margin: 53px 0 6px 0;
+  padding: 2px 8px 2px 8px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Date {
+  width: 40px;
+  height: 30px;
+  margin: 6px 0 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Date-Rectangle {
+  width: 255px;
+  height: 50px;
+  margin: 6px 0 6px 0;
+  padding: 8px 8px 8px 14px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Merchant {
+  width: 60px;
+  height: 30px;
+  margin: 6px 2px 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Marchant-Rectangle {
+  width: 540px;
+  height: 50px;
+  margin: 6px 0 6px 2px;
+  padding: 18px 20px 18px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Purpose {
+  width: 60px;
+  height: 30px;
+  margin: 6px 0px 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Purpose-Rectangle {
+  width: 540px;
+  height: 50px;
+  margin: 6px 0 6px 2px;
+  padding: 18px 20px 18px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Tax-Category {
+  width: 120px;
+  height: 30px;
+  margin: 6px 0 6px 2px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.Tax-Category-Rectangle {
+  width: 540px;
+  height: 50px;
+  margin: 6px 0 6px 2px;
+  padding: 2px 20px 2px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Cancel-Rectangle {
+  width: 260px;
+  height: 56px;
+  margin: 20px 0px 0 0;
+  padding: 18px 112px;
+  border-radius: 12px;
+  border: solid 1px var(--primary);
+}
+
+.Submit-Rectangle {
+  width: 260px;
+  height: 56px;
+  margin: 20px 0 0 26px;
+  padding: 18px 112px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+
+
