@@ -169,7 +169,7 @@ const NewExpense = (props) => {
                                 <input type="text" className="form-control" id="addNote" name="addNote" placeholder="Here is a sample text will come..." />
                             </div> */}
 
-                            <div>
+                            <div className="mb-3">
                                 <span className="Include-taxes-Rectangle"><img src={percentMark} className="percent-line" /><span className="Include-Taxes">
                                     Include Taxes
                                 </span></span>
@@ -185,7 +185,7 @@ const NewExpense = (props) => {
                                 </span>
                             </div>
 
-                            <div>
+                            <div className="mb-3">
                                 <span className="Cancel-Rectangle"><span className="Cancel">
                                     Cancel
                                 </span></span>
