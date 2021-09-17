@@ -71,53 +71,11 @@ const NewExpense = (props) => {
                                             className="close-circle-fill-2" />
                                     </div>
                                 </div>
-
-                                {/* <div className="Assign-To-Rectangle">
-                                    <div className="AutoComplete-Chips-Rectangle">
-                                        <span className="Medical-App">
-                                            Medical App
-                                        </span>
-                                        <img src={autoCompleteChipsCircle}
-                                            className="close-circle-fill-2" />
-                                    </div>
-                                </div> */}
                             </div>
 
 
 
 
-
-                            {/* <div className="form-check form-check-inline">
-                                <label className="form-check-label Tax-deductable" htmlFor="TaxDeduction">
-                                    Tax deduction
-                                </label>
-
-                                <input
-                                    className="form-check-input Tax-deducitble-Rectangle"
-                                    type="radio"
-                                    name="Taxable"
-                                    id="TaxDeduction"
-                                    value="Tax deduction"
-                                    checked={checked.Taxable === "Tax deduction"}
-                                    onChange={radioChangeHandler}
-                                    selected
-                                />
-                            </div>
-                            <div className="form-check form-check-inline">
-
-                                <label className="form-check-label Billable-to-client" htmlFor="BillableToClient">
-                                    Billable to client
-                                </label>
-                                <input
-                                    className="form-check-input Billable-to-client-Rectangle"
-                                    type="radio"
-                                    name="Taxable"
-                                    id="BillableToClient"
-                                    value="Billable to client"
-                                    checked={checked.Taxable === "Billable to client"}
-                                    onChange={radioChangeHandler}
-                                />
-                            </div> */}
 
                             <div>
                                 <span><img className="radioactive" src={radioButton1} alt="radio-button" /></span>
@@ -129,15 +87,6 @@ const NewExpense = (props) => {
                             <div className="row">
                                 <div className="col-md-6 col-sm-12">
                                     <div className="row">
-                                        {/* <div className="col">
-                                            <div className="Total">Total</div>
-                                            <div className="Total-Rectangle">
-                                                <span className="Rs-4500">
-                                                    Rs 4500
-                                                </span>
-                                            </div>
-                                        </div> */}
-
                                         <div className="col-md-6 col-sm-12">
                                             <label htmlFor="total" className="form-label Total">Total</label>
                                             <input type="number" id="total" className="form-control Total-Rectangle" placeholder="Rs0.00" />
@@ -153,11 +102,6 @@ const NewExpense = (props) => {
                                             </div>
 
                                         </div>
-                                        {/* <div className="col Total-Selector">
-                                            <select id="total" className="form-select Total-Selector-Rectangle">
-                                                <option selected>INR</option>
-                                            </select>
-                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-sm-12">
@@ -188,28 +132,6 @@ const NewExpense = (props) => {
                                 </select>
                             </div>
 
-                            {/* <div className="mb-3">
-                                <label htmlFor="addNote" className="form-label">Purpose</label>
-                                <input type="text" className="form-control" id="addNote" name="addNote" placeholder="Dinner with client" />
-                            </div> */}
-
-                            {/* <div className="mb-3">
-                                <label htmlFor="repeating" className="form-label">Repeating</label>
-                                <select className="form-select" aria-label="Default select example">
-                                    <option selected>One time</option>
-                                    <option value="1">Daily</option>
-                                    <option value="2">Weekly</option>
-                                    <option value="3">Bi-weekly</option>
-                                    <option value="3">Monthly</option>
-                                    <option value="3">Yearly</option>
-                                </select>
-                            </div> */}
-
-                            {/* <div className="mb-3">
-                                <label htmlFor="addNote" className="form-label">Add Note</label>
-                                <input type="text" className="form-control" id="addNote" name="addNote" placeholder="Here is a sample text will come..." />
-                            </div> */}
-
                             <div className="mb-5">
                                 <span className="Include-taxes-Rectangle"><img src={percentMark} className="percent-line" /><span className="Include-Taxes">
                                     Include Taxes
@@ -234,11 +156,6 @@ const NewExpense = (props) => {
                                     Create
                                 </span></span>
                             </div>
-
-                            {/* <div className="mb-3">
-                                <button type="submit" className="btn Cancel-Rectangle">Cancel</button>
-                                <button type="submit" className="btn Submit-Rectangle">Create</button>
-                            </div> */}
                         </form>
                     </div>
                 </div>

@@ -150,35 +150,6 @@ img.close-circle-fill-2 {
   object-fit: contain;
 }
 
-/* .AutoComplete-Chips-Rectangle {
-  width: 149px;
-  height: 40px;
-  padding: 8px 12px 10px 12px;
-  border-radius: 8px;
-  background-color: #f2ecfb;
-} */
-
-/* .Medical-App {
-  width: 89px;
-  height: 20px;
-  position: inherit;
-  margin: 0px 0px 12px 0;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #6d5ed3;
-}
-
-img.close-circle-fill-2 {
-  width: 20px;
-  height: 20px;
-  margin: 0 0 0 16px;
-  object-fit: contain;
-} */
 
 /* Image of radio buttun for Tax-deducitble */
 
@@ -229,61 +200,6 @@ img.radio-button-line-2 {
   color: #1a1a1a;
 }
 
-/* .Tax-deducitble {
-  width: 100px;
-  height: 30px;
-  margin: 6px 50px 6px 2px;
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight:500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #6d5ed3;
-} */
-
-/* for input of radio button for tax deducitble */
-
-/* .Tax-deducitble-Rectangle {
- width: 18px;
- height: 18px;
- margin: 6px 2px 6px 2px;
-  background-color: #6d5ed3;
-}  */
-
-/* for label of radio button for billable to client */
-
-/* .Billable-to-client {
-  width: 120px;
-  height: 30px;
-  margin: 6px 0 6px 2px;
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight:500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #6d5ed3;
-} */
-
-
-/* for input of radio button for billable to client */
-
-/* img.radioactive {
-  width: 24px;
-  height: 24px;
-  margin: 0 12px 0 0;
-  object-fit: contain;
-} */
-
-/* .Billable-to-client-Rectangle {
- width: 18px;
- height: 18px;
- margin: 6px 0 6px 2px;
-  background-color: #6d5ed3;
-} */
 
 /* for lable of total */
 
@@ -312,20 +228,6 @@ img.radio-button-line-2 {
   border: solid 1px #7d849e;
   background-color: #fff;
 }
-
-/* .Rs-4500 {
-  width: 56px;
-  height: 20px;
-  margin: 10px 10px 10px 2px;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #1a1a1a;
-} */
 
 /* for drop down of currency */
 
@@ -359,55 +261,6 @@ img.radio-button-line-2 {
   height: 24px;
   margin: 0 0 0 16px;
   object-fit: contain;
-}
-
-
-/* .Total-Selector {
-  margin-left: -112px;
-} */
-
-/* .Total-Selector-Rectangle {
-  width: 83px;
-  height: 40px;
-  margin: 60px 0 6px 0;
-  padding: 2px 8px 2px 8px;
-  font-family: Poppins;
-  font-size: 14px;
-  color:#6d5ed3;
-  font-weight: 500;
-  border-radius: 8px;
-  opacity: 0.1;
-  background-color: #f2ecfb;
-} */
-
-/* .INR {
-  width: 23px;
-  height: 20px;
-  margin: 2px 16px 2px 0;
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #6d5ed3;
-} */
-
-/* for label of date */
-
-.Date {
-  width: 34px;
-  height: 20px;
-  margin: 18px 0 0 2px;
-  font-family: Poppins;
-  font-size:14px;;
-  font-weight:500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #1a1a1a;
 }
 
 /* for input of date  */
@@ -617,7 +470,7 @@ img.edit-box-line-1 {
 .Cancel-Rectangle {
   width: 260px;
   height: 56px;
-  margin: 0px 6px 0 2px;
+  margin: 300px 6px 0 2px;
   padding: 18px 112px;
   border-radius: 12px;
   border: solid 1px #6d5ed3;
@@ -637,16 +490,6 @@ img.edit-box-line-1 {
   text-align: center;
   color: #6d5ed3;
 }
-
-/* .Cancel-Rectangle {
-  width: 260px;
-  height: 58px;
-  color: #6d5ed3;
-  margin: 20px 0px 0 0;
-  padding: 18px 112px;
-  border-radius: 12px;
-  border: solid 1px #6d5ed3;
-} */
 
 /* for Create button */
 
@@ -673,16 +516,6 @@ img.edit-box-line-1 {
   text-align: center;
   color: #fff;
 }
-
-/* .Submit-Rectangle {
-  width: 260px;
-  height: 58px;
-  margin: 20px 0 0 26px;
-  padding: 18px 112px;
-  border-radius: 12px;
-  background-color: #6d5ed3;
-  color: #fff;
-} */
 
 
 
