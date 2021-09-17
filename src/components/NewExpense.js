@@ -7,6 +7,8 @@ import questionMark from '../assets/question-line-1.svg';
 import percentMark from '../assets/percent-line.svg';
 import repeatLine from '../assets/repeat-line.svg';
 import addNote from '../assets/edit-box-line-1.svg';
+import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
+import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
 
 
 import './NewExpense.css';
@@ -33,7 +35,7 @@ const NewExpense = (props) => {
         <>
             <div className="container">
                 <div className="row Whole-Rectangle">
-                    <div className="col-sm-6 Left-Rectangle">
+                    <div className="col-md-6 Left-Rectangle col-sm-12">
                         <div>
                             <img className="Img-receipt" src={receiptImage} alt="reciept image" />
                         </div>
@@ -44,7 +46,7 @@ const NewExpense = (props) => {
                             <span>click to upload a file, or just drag & drop.</span>
                         </div>
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-md-6 col-sm-12">
                         <div>
                             <span className="New-Expense">
                                 New Expense
@@ -57,11 +59,34 @@ const NewExpense = (props) => {
                                 <input type="text"
                                     className="form-control Assign-To-Rectangle"
                                     id="assignTo" name="assignTo"
-                                    placeholder="Medical app"
                                     value={enteredAssignTo}
                                     onChange={AssignToChangeHandler}
                                 />
+                                <div>
+                                    <div className="AutoComplete-Chips-Rectangle">
+                                        <span className="Medical-App">
+                                            Medical App
+                                        </span>
+                                        <img src={autoCompleteChipsCircle}
+                                            className="close-circle-fill-2" />
+                                    </div>
+                                </div>
+
+                                {/* <div className="Assign-To-Rectangle">
+                                    <div className="AutoComplete-Chips-Rectangle">
+                                        <span className="Medical-App">
+                                            Medical App
+                                        </span>
+                                        <img src={autoCompleteChipsCircle}
+                                            className="close-circle-fill-2" />
+                                    </div>
+                                </div> */}
                             </div>
+
+
+
+
+
                             {/* <div className="form-check form-check-inline">
                                 <label className="form-check-label Tax-deductable" htmlFor="TaxDeduction">
                                     Tax deduction
@@ -102,32 +127,48 @@ const NewExpense = (props) => {
 
                             </div>
                             <div className="row">
-                                <div className="col">
+                                <div className="col-md-6 col-sm-12">
                                     <div className="row">
-                                        <div className="col">
+                                        {/* <div className="col">
+                                            <div className="Total">Total</div>
+                                            <div className="Total-Rectangle">
+                                                <span className="Rs-4500">
+                                                    Rs 4500
+                                                </span>
+                                            </div>
+                                        </div> */}
+
+                                        <div className="col-md-6 col-sm-12">
                                             <label htmlFor="total" className="form-label Total">Total</label>
                                             <input type="number" id="total" className="form-control Total-Rectangle" placeholder="Rs0.00" />
                                         </div>
-                                        <div className="col Total-Selector">
-                                            <select id="total" className="form-select Total-Selector-Rectangle">
-                                                <option selected>AEU</option>
-                                                <option>ABC</option>
-                                                <option>CDE</option>
-                                                <option>EFG</option>
-                                                <option>HIJ</option>
-                                            </select>
+                                        <div>
+                                            <div className="INR-Rectangle">
+                                                <span className="INR">
+                                                    INR
+                                                </span>
+                                                <img src={dropDownArrow}
+                                                    className="arrow-down-s-line-copy"
+                                                />
+                                            </div>
+
                                         </div>
+                                        {/* <div className="col Total-Selector">
+                                            <select id="total" className="form-select Total-Selector-Rectangle">
+                                                <option selected>INR</option>
+                                            </select>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="col-md-6 col-sm-12">
                                     <label htmlFor="date" className="form-label Date">Date</label>
                                     <input type="date" id="date" className="form-control Date-Rectangle" />
                                 </div>
                             </div>
 
                             <div className="mb-3">
-                                <label htmlFor="marchant" className="form-label Merchant">Marchant</label>
-                                <input type="text" className="form-control Marchant-Rectangle" id="marchant" name="marchant" placeholder="Microsoft Co." />
+                                <label htmlFor="Merchant" className="form-label Merchant">Merchant</label>
+                                <input type="text" className="form-control Merchant-Rectangle" id="Merchant" name="Merchant" placeholder="Microsoft Co." />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="purpose" className="form-label Purpose">Purpose</label>
@@ -169,7 +210,7 @@ const NewExpense = (props) => {
                                 <input type="text" className="form-control" id="addNote" name="addNote" placeholder="Here is a sample text will come..." />
                             </div> */}
 
-                            <div className="mb-3">
+                            <div className="mb-5">
                                 <span className="Include-taxes-Rectangle"><img src={percentMark} className="percent-line" /><span className="Include-Taxes">
                                     Include Taxes
                                 </span></span>
@@ -185,7 +226,7 @@ const NewExpense = (props) => {
                                 </span>
                             </div>
 
-                            <div className="mb-3">
+                            <div className="mb-5">
                                 <span className="Cancel-Rectangle"><span className="Cancel">
                                     Cancel
                                 </span></span>
@@ -201,7 +242,7 @@ const NewExpense = (props) => {
                         </form>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     );
 

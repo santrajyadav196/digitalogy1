@@ -2,7 +2,7 @@
 
 .Whole-Rectangle {
   width: 1233px;
-  height: 950px;
+  height: 1800px;
   margin: 45px 65px 0 60px;
   padding: 30px 30px 30px 23px;
   border-radius: 12px;
@@ -13,8 +13,8 @@
 /* for left box of UI: */
 
 .Left-Rectangle {
-  width: 540px;
-  height: 900px;
+  width: 560px;
+  height: 850px;
   margin: 0 30px 0 0;
   text-align: center;
   padding: 301px 106px 300px 107px;
@@ -35,10 +35,10 @@
 .Attach-a-receipt {
   width: 162px;
   height: 28px;
-  margin: 40px 90px 6px 85px;
+  margin: 35px 85px 6px 90px;
   font-family: Poppins;
   font-size: 20px;
-  font-weight: 600;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -50,9 +50,9 @@
 /* for lick to upload */
 
 .Click-to-upload {
-  width: 360px;
+  width: 400px;
   height: 25px;
-  margin: 6px 0 0 0;
+  margin: 6px 0 0 -25px;
   font-family: Poppins;
   font-size: 18px;
   font-weight: normal;
@@ -74,7 +74,7 @@
   margin: 12px 25px 6px 2px;
   font-family: Poppins;
   font-size: 20px;
-  font-weight: 600;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -87,7 +87,7 @@
 .Shape {
   width: 24px;
   height: 24px;
-  margin: 12px 0 6px 400px;
+  margin: 12px 0 6px 380px;
   object-fit: contain;
 }
 
@@ -98,8 +98,8 @@
   height: 20px;
   margin: 24px 0 6px 2px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -113,11 +113,72 @@
   width: 560px;
   height: 56px;
   margin: 6px 2px 0 2px;
-  padding: 8px 410px 8px 16px;
+  padding: 7px 410px 8px 12px;
   border-radius: 12px;
   border: solid 1px #7d849e;
   background-color: #fff;
 }
+
+.AutoComplete-Chips-Rectangle {
+  width: 149px;
+  height: 40px;
+  margin: -48px 10px 6px 12px;
+  padding: 8px 12px 10px 12px;
+  border-radius: 8px;
+  background-color: #f2ecfb;
+}
+
+.Medical-App {
+  width: 89px;
+  height: 20px;
+  position: inherit;
+  margin: 0px 0px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+img.close-circle-fill-2 {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 16px;
+  object-fit: contain;
+}
+
+/* .AutoComplete-Chips-Rectangle {
+  width: 149px;
+  height: 40px;
+  padding: 8px 12px 10px 12px;
+  border-radius: 8px;
+  background-color: #f2ecfb;
+} */
+
+/* .Medical-App {
+  width: 89px;
+  height: 20px;
+  position: inherit;
+  margin: 0px 0px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+img.close-circle-fill-2 {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 16px;
+  object-fit: contain;
+} */
 
 /* Image of radio buttun for Tax-deducitble */
 
@@ -135,8 +196,8 @@ img.radioactive {
   height: 20px;
   margin: 12px 0 6px 0;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -159,7 +220,7 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 12px 0 6px 0;
   font-family: Poppins;
-  font-size: 16px;
+  font-size:14px;;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -174,7 +235,7 @@ img.radio-button-line-2 {
   margin: 6px 50px 6px 2px;
   font-family: Poppins;
   font-size: 15px;
-  font-weight: 600;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -199,7 +260,7 @@ img.radio-button-line-2 {
   margin: 6px 0 6px 2px;
   font-family: Poppins;
   font-size: 15px;
-  font-weight: 600;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -231,8 +292,8 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 18px 0 0 2px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -252,21 +313,86 @@ img.radio-button-line-2 {
   background-color: #fff;
 }
 
+/* .Rs-4500 {
+  width: 56px;
+  height: 20px;
+  margin: 10px 10px 10px 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+} */
+
 /* for drop down of currency */
 
-.Total-Selector {
-  margin-left: -114px;
+.INR-Rectangle {
+  width: 83px;
+  height: 40px;
+  margin: -55px 0px 0 170px;
+  padding: 8px 8px 8px 12px;
+  /* display: inline; */
+  /* opacity: 0.1; */
+  border-radius: 8px;
+  background-color: #f2ecfb;
 }
 
-.Total-Selector-Rectangle {
-  width: 84px;
-  height: 40px;
-  margin: 58px 0 6px 0;
-  padding: 2px 8px 2px 8px;
-  border-radius: 12px;
-  border: solid 1px #7d849e;
-  background-color: #fff;
+.INR {
+  width: 23px;
+  height: 20px;
+  margin: 2px 6px 2px 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
 }
+
+.img.arrow-down-s-line-copy {
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 16px;
+  object-fit: contain;
+}
+
+
+/* .Total-Selector {
+  margin-left: -112px;
+} */
+
+/* .Total-Selector-Rectangle {
+  width: 83px;
+  height: 40px;
+  margin: 60px 0 6px 0;
+  padding: 2px 8px 2px 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  color:#6d5ed3;
+  font-weight: 500;
+  border-radius: 8px;
+  opacity: 0.1;
+  background-color: #f2ecfb;
+} */
+
+/* .INR {
+  width: 23px;
+  height: 20px;
+  margin: 2px 16px 2px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+} */
 
 /* for label of date */
 
@@ -275,8 +401,8 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 18px 0 0 2px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -289,7 +415,7 @@ img.radio-button-line-2 {
 .Date-Rectangle {
   width: 260px;
   height: 56px;
-  margin: 12px 0 12px 0;
+  margin: 12px 0 12px 4px;
   padding: 8px 8px 8px 14px;
   border-radius: 12px;
   border: solid 1px #7d849e;
@@ -303,8 +429,8 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 12px 2px 6px 2px;
   font-family: Poppins;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -314,7 +440,7 @@ img.radio-button-line-2 {
 
 /* for input of marchant */
 
-.Marchant-Rectangle {
+.Merchant-Rectangle {
   width: 560px;
   height: 56px;
   margin: 6px 0 0 2px;
@@ -332,8 +458,8 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 0px 0px 6px 2px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -360,8 +486,8 @@ img.radio-button-line-2 {
   height: 20px;
   margin: 12px 0 12px 2px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -374,7 +500,7 @@ img.radio-button-line-2 {
 img.question-line-1 {
   width: 20px;
   height: 20px;
-  margin: 1px 0px 6px 2px;
+  margin: 4px 0px 6px 8px;
   object-fit: contain;
 }
 
@@ -413,8 +539,8 @@ img.percent-line {
   height: 20px;
   margin: 0 0 0 3px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -445,8 +571,8 @@ img.repeat-line {
   height: 20px;
   margin: 0 0 0 3px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -477,8 +603,8 @@ img.edit-box-line-1 {
   height: 20px;
   margin: 0 0 0 3px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -491,7 +617,7 @@ img.edit-box-line-1 {
 .Cancel-Rectangle {
   width: 260px;
   height: 56px;
-  margin: 12px 6px 0 2px;
+  margin: 0px 6px 0 2px;
   padding: 18px 112px;
   border-radius: 12px;
   border: solid 1px #6d5ed3;
@@ -502,8 +628,8 @@ img.edit-box-line-1 {
   width: 45px;
   height: 20px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -527,7 +653,7 @@ img.edit-box-line-1 {
 .Create-Rectangle {
   width: 260px;
   height: 56px;
-  margin: 24px 2px 0 12px;
+  margin: 0px 2px 0 12px;
   padding: 18px 112px;
   border-radius: 12px;
   background-color: #6d5ed3;
@@ -538,8 +664,8 @@ img.edit-box-line-1 {
   width: 45px;
   height: 20px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
+  font-size:14px;;
+  font-weight:500;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
