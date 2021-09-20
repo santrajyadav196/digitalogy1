@@ -1,0 +1,130 @@
+.Tax-Included {
+  width: 90px;
+  height: 20px;
+  margin: 12px 60px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Tax-Included-Rectangle {
+  width: 140px;
+  height: 56px;
+  display: flex;
+  margin: 18px 0 0 0;
+  padding: 12px 24px 0 0;
+  border-radius: 12px;
+  border: solid 1px #f0eefa;
+  background-color: #fff;
+}
+
+.Percentage-Rectangle {
+  width: 71px;
+  height: 56px;
+  margin: -12px 22px 0 0;
+  padding: 10px 27px 14px 28px;
+  border-radius: 12px;
+  background-color:#f2ecfb;
+}
+
+.Percentage-Color {
+  width: 16px;
+  height: 28px;
+  margin: 12px 0 0 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+
+.RS-Color {
+  width: 23px;
+  height: 25px;
+  margin: 2px 12px 8px 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+.Tax-Label-Rectangle {
+  width: 193px;
+  height: 56px;
+  margin: 18px 6px 0 12px;
+  padding: 18px 6px 18px 12px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Tax-Rate-Rectangle {
+  width: 193px;
+  height: 56px;
+  margin: 18px -12px 0 -24px;
+  padding: 18px 6px 18px 12px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Repeating {
+  width: 73px;
+  height: 20px;
+  margin: 0 30px 12px 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Repeating-Rectangle {
+  width: 560px;
+  height: 56px;
+  margin: 6px 0 6px 2px;
+  padding: 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Add-NoteOne {
+  width: 66px;
+  height: 20px;
+  margin: 0 37px 12px 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Add-NoteOne-Rectangle {
+  width: 560px;
+  height: 56px;
+  margin: 6px 0 12px 2px;
+  padding: 18px 331px 18px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}

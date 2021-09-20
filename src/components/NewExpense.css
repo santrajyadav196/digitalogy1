@@ -1,8 +1,6 @@
-/* for whole box of UI */
-
 .Whole-Rectangle {
   width: 1233px;
-  height: 1800px;
+  height: 885px;
   margin: 45px 65px 0 60px;
   padding: 30px 30px 30px 23px;
   border-radius: 12px;
@@ -112,7 +110,7 @@
 .Assign-To-Rectangle {
   width: 560px;
   height: 56px;
-  margin: 6px 2px 0 2px;
+  margin: 6px 2px 12px 2px;
   padding: 7px 410px 8px 12px;
   border-radius: 12px;
   border: solid 1px #7d849e;
@@ -122,7 +120,7 @@
 .AutoComplete-Chips-Rectangle {
   width: 149px;
   height: 40px;
-  margin: -48px 10px 6px 12px;
+  margin: -60px 10px 36px 12px;
   padding: 8px 12px 10px 12px;
   border-radius: 8px;
   background-color: #f2ecfb;
@@ -149,7 +147,6 @@ img.close-circle-fill-2 {
   margin: 0 0 0 16px;
   object-fit: contain;
 }
-
 
 /* Image of radio buttun for Tax-deducitble */
 
@@ -200,13 +197,12 @@ img.radio-button-line-2 {
   color: #1a1a1a;
 }
 
-
 /* for lable of total */
 
 .Total {
   width: 30px;
   height: 20px;
-  margin: 18px 0 0 2px;
+  margin: 18px 0 6px 2px;
   font-family: Poppins;
   font-size:14px;;
   font-weight:500;
@@ -228,6 +224,7 @@ img.radio-button-line-2 {
   border: solid 1px #7d849e;
   background-color: #fff;
 }
+
 
 /* for drop down of currency */
 
@@ -261,6 +258,23 @@ img.radio-button-line-2 {
   height: 24px;
   margin: 0 0 0 16px;
   object-fit: contain;
+}
+
+
+/* for label of date */
+
+.Date {
+  width: 34px;
+  height: 20px;
+  margin: 18px 0 6px 2px;
+  font-family: Poppins;
+  font-size:14px;;
+  font-weight:500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
 }
 
 /* for input of date  */
@@ -362,8 +376,8 @@ img.question-line-1 {
 .Tax-Category-Rectangle {
   width: 560px;
   height: 56px;
-  margin: 12px 0 36px 2px;
-  padding: 2px 20px 2px 20px;
+  margin: 12px 0 12px 2px;
+  padding: 6px 20px 12px 20px;
   border-radius: 12px;
   border: solid 1px #7d849e;
   background-color: #fff;
@@ -470,7 +484,7 @@ img.edit-box-line-1 {
 .Cancel-Rectangle {
   width: 260px;
   height: 56px;
-  margin: 300px 6px 0 2px;
+  margin: 0px 6px 0 2px;
   padding: 18px 112px;
   border-radius: 12px;
   border: solid 1px #6d5ed3;
@@ -490,6 +504,7 @@ img.edit-box-line-1 {
   text-align: center;
   color: #6d5ed3;
 }
+
 
 /* for Create button */
 
@@ -516,6 +531,3 @@ img.edit-box-line-1 {
   text-align: center;
   color: #fff;
 }
-
-
-

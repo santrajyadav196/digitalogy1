@@ -11,30 +11,13 @@ import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
 import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
 
 
-import './NewExpense.css';
+import './NewExpenseOne.css';
 
-const NewExpense = (props) => {
-    const [enteredAssignTo, setEnteredAssignTo] = useState('');
-    const [checked, setChecked] = useState('');
-
-    const addNewExpenseHandler = (event) => {
-        event.preventDefault();
-        console.log(enteredAssignTo, checked);
-        setEnteredAssignTo('');
-    }
-
-    const AssignToChangeHandler = (event) => {
-        setEnteredAssignTo(event.target.value);
-    }
-
-    const radioChangeHandler = (event) => {
-        setChecked(event.target.value);
-    }
-
+const NewExpenseOne = (props) => {
     return (
         <>
             <div className="container">
-                <div className="row Whole-Rectangle">
+                <div className="row Whole-Rectangle" style={{ height: "1160px" }}>
                     <div className="col-md-6 Left-Rectangle col-sm-12">
                         <div>
                             <img className="Img-receipt" src={receiptImage} alt="reciept image" />
@@ -53,14 +36,13 @@ const NewExpense = (props) => {
                             </span>
                             <span className="Shape"><img src={closeCircle} alt="close-mark" /></span>
                         </div>
-                        <form onSubmit={addNewExpenseHandler}>
+                        <form>
                             <div className="mb-3">
                                 <label htmlFor="assignTo" className="form-label Assign-To">Assign To</label>
                                 <input type="text"
                                     className="form-control Assign-To-Rectangle"
-                                    id="assignTo" name="assignTo"
-                                    value={enteredAssignTo}
-                                    onChange={AssignToChangeHandler}
+                                    id="assignTo"
+                                    name="assignTo"
                                 />
                                 <div>
                                     <div className="AutoComplete-Chips-Rectangle">
@@ -72,11 +54,6 @@ const NewExpense = (props) => {
                                     </div>
                                 </div>
                             </div>
-
-
-
-
-
                             <div>
                                 <span><img className="radioactive" src={radioButton1} alt="radio-button" /></span>
                                 <span className="Tax-deducitble">Tax deducitble </span>
@@ -132,23 +109,66 @@ const NewExpense = (props) => {
                                 </select>
                             </div>
 
-                            <div className="mb-5 mt-5">
-                                <span className="Include-taxes-Rectangle"><img src={percentMark} className="percent-line" /><span className="Include-Taxes">
-                                    Include Taxes
-                                </span></span>
-                                <span className="Repeat-Rectangle"><img src={repeatLine}
-                                    className="repeat-line" /><span className="Make-Repeating">
-                                        Make Repeating
-                                    </span></span>
-                                <span className="Add-Note-Rectangle">
-                                    <img src={addNote}
-                                        className="edit-box-line-1" /><span className="Add-Note">
-                                        Add Note
-                                    </span>
+                            <div className="mb-3">
+                                <span className="Tax-Included">
+                                    Tax included
                                 </span>
+                                <span className="Shape " style={{ marginLeft: "385px" }}>
+                                    <img src={closeCircle} alt="close-mark" />
+                                </span>
+                                <div className="row">
+                                    <div className="col-3">
+                                        <div className="Tax-Included-Rectangle">
+                                            <span className="Percentage-Rectangle">
+                                                <span className="Percentage-Color">
+                                                    <h3><i class="bi bi-percent"></i></h3>
+                                                </span>
+                                            </span>
+                                            <span>
+                                                <span className="RS-Color">
+                                                    RS
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="col-5">
+                                        <input
+                                            type="text"
+                                            id="date"
+                                            className="form-control Tax-Label-Rectangle"
+                                            placeholder="Tax-Label"
+                                        />
+                                    </div>
+                                    <div className="col-4">
+                                        <input
+                                            type="text"
+                                            id="date"
+                                            className="form-control Tax-Rate-Rectangle"
+                                            placeholder="Tax Rate"
+                                        />
+                                    </div>
+                                </div>
                             </div>
 
-                            <div className="mt-5">
+                            <div className="mb-3">
+                                <label htmlFor="repeating" className="form-label Repeating">Repeating</label>
+                                <select className="form-select Repeating-Rectangle" aria-label="Default select example">
+                                    <option selected>One time</option>
+                                    <option value="1">Daily</option>
+                                    <option value="2">Weekly</option>
+                                    <option value="3">Bi-weekly</option>
+                                    <option value="3">Monthly</option>
+                                    <option value="3">Yearly</option>
+                                </select>
+                            </div>
+
+                            <div className="mb-3">
+                                <label htmlFor="addNote" className="form-label Add-NoteOne">Add Note</label>
+                                <input type="text" className="form-control Add-NoteOne-Rectangle" id="addNote" name="addNote" placeholder="Here is a sample text will come..." />
+                            </div>
+
+
+                            <div className="mb-5 mt-5">
                                 <span className="Cancel-Rectangle"><span className="Cancel">
                                     Cancel
                                 </span></span>
@@ -165,4 +185,5 @@ const NewExpense = (props) => {
 
 }
 
-export default NewExpense;
+export default NewExpenseOne;
+
