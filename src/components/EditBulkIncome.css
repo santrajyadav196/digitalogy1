@@ -1,0 +1,245 @@
+.EditBulkIncome-Rectangle {
+  width: 1062px;
+  height: 556px;
+  padding: 30px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(17, 17, 17, 0.2);
+  background-color: #fff;
+}
+
+.Edit-Bulk-Income {
+  width: 166px;
+  height: 28px;
+  margin: 0 435px 30px 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Edit-Bulk{
+    margin: 36px 0 0 0;
+}
+
+.Details-Rectangle {
+  width: 1062px;
+  height: 80px;
+  margin: 0 0 2px 0;
+  padding: 24px 0 12px 0;
+  opacity: 0.8;
+  background-color: #fff;
+  border-bottom: 2px solid #e0e0e6;
+}
+
+
+img.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 4px 0 30px;
+  object-fit: contain;
+}
+
+img.checkbox-line-1 {
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 30px;
+  object-fit: contain;
+}
+
+img.Arrow-Path {
+  width: 12px;
+  height: 13px;
+  margin: 2px 6px 6px 36px;
+  object-fit: contain;
+}
+
+.Invoice-1 {
+  width: 59px;
+  height: 20px;
+  margin: 0 12px 0 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Hudson-Agency {
+  width: 110px;
+  height: 20px;
+  margin: 2px 60px 2px 85px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Revenue {
+  width: 61px;
+  height: 20px;
+  margin: 2px 60px 2px 37px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+
+.Edit-Bulk-Income-Date {
+  width: 70px;
+  height: 20px;
+  margin: 2px 60px 2px 37px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+img.Rupees-Path {
+  width: 9px;
+  height: 14px;
+  margin: 3px 2px 3px 37px;
+  object-fit: contain;
+}
+
+.Edit-Bulk-Income-Rupees {
+  width: 35px;
+  height: 20px;
+  margin: 2px 60px 2px 6px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+img.attachment-line-1 {
+  width: 24px;
+  height: 24px;
+  margin: 2px 20px 2px 37px;
+  object-fit: contain;
+}
+
+img.delete-bin-6-line-copy {
+  width: 24px;
+  height: 24px;
+  margin: 2px 20px 2px 20px;
+  object-fit: contain;
+}
+
+
+.Select-All-Rectangle {
+  width: 117px;
+  height: 30px;
+  margin:63px 280px 13px 30px;
+  padding: 1px 6px 1px 3px;
+  display: inline;
+  border-radius: 8px;
+  background-color: #f2ecf2;
+}
+
+.Select-All-Checkbox{
+  width: 18px;
+  height: 18px;
+  margin: 1px 4px 1px 8px;
+  object-fit: contain;
+}
+
+.Sellect-All {
+  width: 68px;
+  height: 20px;
+  margin: 2px 6px 0 4px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+.Delete-Bulk-Rectangle {
+  width: 208px;
+  height: 56px;
+  margin: 50px 3px 0 180px;
+  padding: 9px 60px 3px 75px;
+  border-radius: 12px;
+  border: solid 1px #6d5ed3;
+  background-color: #fff;
+}
+
+img.delete {
+  width: 18px;
+  height: 18px;
+  margin: 9px 4px 9px -12px;
+  object-fit: contain;
+}
+
+.Delete {
+  width: 45px;
+  height: 20px;
+  margin: 0 0 0 4px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6d5ed3;
+}
+
+.Edit-Bulk-Rectangle {
+  width: 208px;
+  height: 56px;
+  margin: 50px 30px 0 18px;
+  padding: 12px 60px 3px 75px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+img.edit {
+  width: 18px;
+  height: 18px;
+  margin: 9px 4px 9px 3px;
+  object-fit: contain;
+}
+
+.Edit {
+  width: 26px;
+  height: 20px;
+  margin: 0 0 0 2px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
