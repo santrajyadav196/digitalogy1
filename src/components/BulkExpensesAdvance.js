@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import receiptImage from '../assets/receipt.svg';
 import closeCircle from '../assets/close-circle-line-3.svg';
 import questionMark from '../assets/question-line-1.svg';
-import plusCircle from '../assets/close-plus-circle-line.svg';
+import imageAddIcon from '../assets/image-add-line.svg';
 import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
 import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
 
-import './BulkExpenses.css';
+import './BulkExpensesAdvance.css';
 
-const BulkExpenses = (props) => {
+const BulkExpensesAdvance = (props) => {
     return (
         <>
             <div className="container">
-                <div className="BulkExpenses-Rectangle">
+                <div className="BulkExpenses-Rectangle" style={{ height: "1025px" }}>
                     <div className="row">
                         <div className="col">
                             <div className="BulkExpenses-Left-Rectangle">
@@ -33,7 +33,7 @@ const BulkExpenses = (props) => {
                                 <img src={closeCircle} alt="close-mark" />
                             </span>
                             <form>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="assignTo" className="form-label BulkExpenses-AssignTo">Assign To</label>
                                     <input type="text"
                                         className="form-control BulkExpenses-AssignTo-Rectangle"
@@ -77,7 +77,7 @@ const BulkExpenses = (props) => {
                                         placeholder="Dinner with client"
                                     />
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label
                                         htmlFor="total"
                                         className="form-label BulkEexpenses-Total">
@@ -98,10 +98,81 @@ const BulkExpenses = (props) => {
                                         />
                                     </div>
                                 </div>
-                                <div className="mb-5">
-                                    <img src={plusCircle}
-                                        class="close-plus-circle-line" />
-                                    <span className="BulkExpenses-Advance">Advance</span>
+                                <div className="row">
+                                    <div className="col col-md-6 col-sm-12">
+                                        <div className="mb-3">
+                                            <label
+                                                htmlFor="billToProject"
+                                                className="form-label BulkExpenses-Bill-To-Project">
+                                                Bill To (Project)
+                                            </label>
+                                            <input type="text"
+                                                className="form-control BulkExpenses-Bill-To-Project-Rectangle"
+                                                id="billToProject"
+                                                name="billToProject"
+                                            />
+                                            <div className="AutoComplete-Chips-Rectangle" style={{ margin: "-48px 10px 24px -6px" }}>
+                                                <span className="Medical-App">
+                                                    Medical App
+                                                </span>
+                                                <img src={autoCompleteChipsCircle}
+                                                    className="close-circle-fill-2" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col col-md-6 col-sm-12">
+                                        <div className="mb-3">
+                                            <label
+                                                htmlFor="spent"
+                                                className="form-label BulkExpenses-Spent">
+                                                Spent
+                                            </label>
+                                            <input type="date"
+                                                className="form-control BulkExpenses-Spent-Rectangle"
+                                                id="spent"
+                                                name="spent"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="row">
+                                    <div className="col col-md-6 col-sm-12">
+                                        <div className="mb-3">
+                                            <label
+                                                htmlFor="time"
+                                                className="form-label BulkExpenses-Time">
+                                                Time
+                                            </label>
+                                            <select className="form-select BulkExpenses-Time-Rectangle" aria-label="Default select example">
+                                                <option value="1">Daily</option>
+                                                <option value="2" selected>Weekly</option>
+                                                <option value="3">Monthly</option>
+                                                <option value="4">Yearly</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div className="col col-md-6 col-sm-12">
+                                        <div className="mb-3">
+                                            <label
+                                                htmlFor="stopOn"
+                                                className="form-label BulkExpenses-Stop-On">
+                                                Stop On
+                                            </label>
+                                            <input type="date"
+                                                className="form-control BulkExpenses-Stop-On-Rectangle"
+                                                id="stopOn"
+                                                name="stopOn"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="Receipt-Rectangle">
+                                    <img src={imageAddIcon}
+                                        className="image-add-line" />
+                                    <span className="BulkExpenses-Add-Receipt">
+                                        Add Receipt
+                                    </span>
                                 </div>
                                 <div className="mt-5 BulkExpenses">
                                     <span className="BulkExpenses-Cancel-Rectangle">
@@ -124,5 +195,5 @@ const BulkExpenses = (props) => {
     );
 }
 
-export default BulkExpenses;
+export default BulkExpensesAdvance;
 

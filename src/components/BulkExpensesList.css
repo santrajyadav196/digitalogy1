@@ -1,0 +1,57 @@
+.BulkExpensesList-Left-Rectangle {
+  width: 576px;
+  height: 626px;
+  margin: 0 30px 0 0;
+}
+
+
+.BulkExpensesList-Rectangle {
+  width: 576px;
+  height: 146px;
+  margin: 0 30px 16px 0;
+  padding: 24px 15px 24px 24px;
+  background-color: #f6f7fb;
+}
+
+.BulkExpensesList-Name {
+  width: 159px;
+  height: 28px;
+  /* margin: 0 290px 6px 0; */
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1b1313;
+}
+
+.BulkExpensesList-Edit {
+  width: 24px;
+  height: 24px;
+  margin: 0 20px 10px 253px;
+  object-fit: contain;
+}
+
+.BulkExpensesList-Delete {
+  width: 24px;
+  height: 24px;
+  margin: 0 9px 10px 20px;
+  object-fit: contain;
+}
+
+.BulkExpensesList-Spent-Date{
+  width: 148px;
+  height: 23px;
+  margin: 6px 302px 16px 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}

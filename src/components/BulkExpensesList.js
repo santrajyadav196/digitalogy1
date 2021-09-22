@@ -1,28 +1,47 @@
 import React, { useState } from 'react';
-import receiptImage from '../assets/receipt.svg';
 import closeCircle from '../assets/close-circle-line-3.svg';
 import questionMark from '../assets/question-line-1.svg';
 import plusCircle from '../assets/close-plus-circle-line.svg';
 import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
 import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
+import coloredEditSymbol from '../assets/coloredEdit.svg';
+import coloredDeleteSymbol from '../assets/coloredDelete.svg';
 
-import './BulkExpenses.css';
+import './BulkExpensesList.css';
 
-const BulkExpenses = (props) => {
+const BulkExpensesList = (props) => {
     return (
         <>
             <div className="container">
                 <div className="BulkExpenses-Rectangle">
                     <div className="row">
                         <div className="col">
-                            <div className="BulkExpenses-Left-Rectangle">
-                                <img
+                            <div className="BulkExpensesList-Left-Rectangle">
+
+
+                                <div className="BulkExpensesList-Rectangle">
+                                    <div>
+                                        <span className="BulkExpensesList-Name">James Harrison</span>
+                                        <span><img src={coloredEditSymbol}
+                                            className="BulkExpensesList-Edit" />
+                                        </span>
+                                        <span>
+                                            <img src={coloredDeleteSymbol}
+                                                className="BulkExpensesList-Delete" />
+                                        </span>
+                                    </div>
+                                    <div className="BulkExpensesList-Spent-Date">
+                                        Spent 09 July 2021
+                                    </div>
+                                </div>
+
+                                {/* <img
                                     className="img-receipt-toBulkExpenses"
                                     src={receiptImage} alt="reciept image"
                                 />
                                 <div className="No-Expenses-yet">
                                     No Expenses yet
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col">
@@ -124,5 +143,5 @@ const BulkExpenses = (props) => {
     );
 }
 
-export default BulkExpenses;
+export default BulkExpensesList;
 

@@ -197,7 +197,7 @@ img.close-plus-circle-line {
   width: 275px;
   height: 56px;
   margin: 0 0 0 15px;
-  padding: 18px 113px;
+  padding: 18px 112px;
   border-radius: 12px;
   background-color: #6d5ed3;
 }
@@ -214,4 +214,10 @@ img.close-plus-circle-line {
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+}
+
+/* margin for create button */
+
+.BulkExpenses{
+  margin-top: 4.5rem !important;
 }

@@ -1,0 +1,126 @@
+.BulkExpenses-Bill-To-Project {
+  width: 107px;
+  height: 20px;
+  margin: 12px 0px 0px -15px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: 1a1a1a;
+}
+
+.BulkExpenses-Bill-To-Project-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 12px 0 0 -15px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkExpenses-Spent {
+  width: 41px;
+  height: 20px;
+  margin: 12px 0px 0px -15px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Spent-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 12px 0 0 -15px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkExpenses-Time {
+  width: 35px;
+  height: 20px;
+  margin: 6px 0px 0px -15px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Time-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 12px 0 0 -15px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkExpenses-Stop-On {
+  width: 56px;
+  height: 20px;
+  margin: 6px 0px 0px -15px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--font-1);
+}
+
+.BulkExpenses-Stop-On-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 12px 0 0 -15px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.Receipt-Rectangle {
+  width: 570px;
+  height: 129px;
+  margin: 9px 0 0px -20px;
+  padding: 24px 232px 24px 233px;
+  border-radius: 12px;
+  border: dashed 3px #dbdee7;
+  background-color: #f6f7fb;
+}
+
+img.image-add-line {
+  width: 32px;
+  height: 32px;
+  margin: 1px 14px 18px 28px;
+  object-fit: contain;
+}
+
+.BulkExpenses-Add-Receipt {
+  width: 109px;
+  height: 25px;
+  margin: 0px 0px 0px -11px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
