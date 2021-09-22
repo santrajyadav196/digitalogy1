@@ -1,0 +1,217 @@
+.BulkExpenses-Rectangle {
+  width: 1233px;
+  height: 686px;
+  padding: 30px 30px 30px 23px;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(17, 17, 17, 0.2);
+  background-color: #fff;
+}
+
+.BulkExpenses-Left-Rectangle {
+  width: 576px;
+  height: 626px;
+  margin: 0 30px 0 0;
+  padding: 234px 206px;
+  background-color: #f6f7fb;
+}
+
+.img-receipt-toBulkExpenses {
+  width: 83px;
+  height: 100px;
+  margin: 0 40px 30px;
+  object-fit: contain;
+}
+
+.No-Expenses-yet {
+  width: 163px;
+  height: 28px;
+  /* margin: 6px 0 0; */
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-New-Expense {
+  width: 131px;
+  height: 28px;
+  margin: 0 35px 30px -20px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-AssignTo {
+  width: 68px;
+  height: 20px;
+  margin: 30px 6px 12px -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-AssignTo-Rectangle {
+  width: 574px;
+  height: 56px;
+  margin: 0 -9px 0 -18px;
+  padding: 8px 35px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkExpenses-Category {
+  width: 67px;
+  height: 20px;
+  margin: 0 0 12px -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Category-Rectangle {
+  width: 574px;
+  height: 56px;
+  margin: 9px -6px 6px -18px;
+  padding: 12px 16px 12px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkExpenses-Purpose {
+  width: 58px;
+  height: 20px;
+  margin:  0 0 12px -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Purpose-Rectangle {
+  width: 574px;
+  height: 56px;
+  margin: 0px -6px 0px -18px;
+  padding: 12px 16px 12px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.BulkEexpenses-Total {
+  width: 36px;
+  height: 20px;
+  margin: 0 0 12px -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Total-Rectangle {
+  width: 574px;
+  height: 56px;
+  margin: 0px -6px 0px -18px;
+  padding: 12px 16px 12px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+img.close-plus-circle-line {
+  width: 24px;
+  height: 24px;
+  margin: 0 6px 0 450px;
+  object-fit: contain;
+}
+
+.BulkExpenses-Advance {
+  width: 63px;
+  height: 20px;
+  margin: 0 0 0 6px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.BulkExpenses-Cancel-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 0 0 0 -18px;
+  padding: 18px 112px;
+  border-radius: 12px;
+  border: solid 1px #6d5ed3;
+  background-color: #fff;
+}
+
+.BulkExpenses-Cancel {
+  width: 51px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6d5ed3;
+}
+
+.BulkExpenses-Create-Rectangle {
+  width: 275px;
+  height: 56px;
+  margin: 0 0 0 15px;
+  padding: 18px 113px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+.BulkExpenses-Create {
+  width: 49px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}

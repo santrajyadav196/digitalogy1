@@ -1,0 +1,141 @@
+.TransactionFilter-Rectangle {
+  width: 310px;
+  height: 768px;
+  padding: 34px 18px 179px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+}
+
+.Transaction-Filter {
+  width: 44px;
+  height: 25px;
+  margin: 0 120px 40px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Transaction-Path {
+  width: 24px;
+  height: 24px;
+  margin: 1px 0 40px 75px;
+  padding: 2px;
+  vertical-align: top;
+}
+
+.TransactionFilter-Date-Range {
+  width: 83px;
+  height: 20px;
+  margin: 35px 179px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Transaction-Filter-Rectangle {
+  width: 262px;
+  height: 48px;
+  margin: 3px 0 0;
+  padding: 10px 40px 10px 16px;
+  border-radius: 8px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionFilter-Client {
+  width: 42px;
+  height: 20px;
+  margin: 0 220px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionFilter-Project {
+  width: 49px;
+  height: 20px;
+  margin: 0 213px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionFilter-Transactions {
+  width: 92px;
+  height: 20px;
+  margin: 0 170px 12px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Clear-Filters-Rectangle {
+  width: 122px;
+  height: 48px;
+  margin: 30px 12px 0;
+  padding: 11px 6px 6px 17px;;
+  border-radius: 8px;
+  border: solid 1px #6d5ed3;
+  background-color: #fff;
+}
+
+.Clear-Filters {
+  width: 83px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+.Apply-Filters-Rectangle {
+  width: 123px;
+  height: 48px;
+  margin: 30px 2px 0 4px;
+  padding: 10px 41px;
+  border-radius: 8px;
+  background-color: #6d5ed3;
+}
+
+.Apply-Filters {
+  width: 41px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}

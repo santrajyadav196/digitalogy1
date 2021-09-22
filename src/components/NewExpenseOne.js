@@ -100,7 +100,7 @@ const NewExpenseOne = (props) => {
                                     <span className="Tax-Category">Tax Category</span><img src={questionMark} className="question-line-1" />
 
                                 </div>
-                                {/* <label htmlFor="purpose" className="form-label Tax-Category">Tax Category </label> */}
+                                {/* <label htmlFor="category" className="form-label Tax-Category">Tax Category </label> */}
                                 <select className="form-select Tax-Category-Rectangle" aria-label="Default select example">
                                     <option selected>Cost of goods and sold</option>
                                     <option value="1">One</option>
