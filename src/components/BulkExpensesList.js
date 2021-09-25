@@ -6,6 +6,7 @@ import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
 import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
 import coloredEditSymbol from '../assets/coloredEdit.svg';
 import coloredDeleteSymbol from '../assets/coloredDelete.svg';
+import coloredDownArrow from '../assets/red-down-arrow.svg';
 
 import './BulkExpensesList.css';
 
@@ -17,23 +18,83 @@ const BulkExpensesList = (props) => {
                     <div className="row">
                         <div className="col">
                             <div className="BulkExpensesList-Left-Rectangle">
-
-
                                 <div className="BulkExpensesList-Rectangle">
-                                    <div>
-                                        <span className="BulkExpensesList-Name">James Harrison</span>
-                                        <span><img src={coloredEditSymbol}
-                                            className="BulkExpensesList-Edit" />
-                                        </span>
-                                        <span>
-                                            <img src={coloredDeleteSymbol}
-                                                className="BulkExpensesList-Delete" />
-                                        </span>
+                                    <div className="row">
+                                        <div className="col-10">
+                                            <span className="BulkExpensesList-Name">James Harrison</span>
+                                        </div>
+                                        <div className="col-1">
+                                            <span><img src={coloredEditSymbol}
+                                                className="BulkExpensesList-Edit" />
+                                            </span>
+                                        </div>
+                                        <div className="col-1">
+                                            <span>
+                                                <img src={coloredDeleteSymbol}
+                                                    className="BulkExpensesList-Delete" />
+                                            </span>
+                                        </div>
                                     </div>
                                     <div className="BulkExpensesList-Spent-Date">
                                         Spent 09 July 2021
                                     </div>
+                                    <div className="row">
+                                        <div className="col-9">
+                                            <span className="BulkExpensesList-Purpose">
+                                                Business Development
+                                            </span>
+                                        </div>
+                                        <div className="col-3">
+                                            <span>
+                                                <img src={coloredDownArrow}
+                                                    className="BulkExpenses-downArrow" />
+                                            </span>
+                                            <span className="BulkExpensesList-Total">
+                                                ₹500.00
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <div className="BulkExpensesList-Rectangle">
+                                    <div className="row">
+                                        <div className="col-10">
+                                            <span className="BulkExpensesList-Name">Mabel Fleming..........</span>
+                                        </div>
+                                        <div className="col-1">
+                                            <span><img src={coloredEditSymbol}
+                                                className="BulkExpensesList-Edit" />
+                                            </span>
+                                        </div>
+                                        <div className="col-1">
+                                            <span>
+                                                <img src={coloredDeleteSymbol}
+                                                    className="BulkExpensesList-Delete" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="BulkExpensesList-Spent-Date">
+                                        Spent 09 July 2021
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-9">
+                                            <span className="BulkExpensesList-Purpose">
+                                                Dinner with client
+                                            </span>
+                                        </div>
+                                        <div className="col-3">
+                                            <span>
+                                                <img src={coloredDownArrow}
+                                                    className="BulkExpenses-downArrow" />
+                                            </span>
+                                            <span className="BulkExpensesList-Total">
+                                                ₹500.00
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
 
                                 {/* <img
                                     className="img-receipt-toBulkExpenses"
@@ -52,7 +113,7 @@ const BulkExpensesList = (props) => {
                                 <img src={closeCircle} alt="close-mark" />
                             </span>
                             <form>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="assignTo" className="form-label BulkExpenses-AssignTo">Assign To</label>
                                     <input type="text"
                                         className="form-control BulkExpenses-AssignTo-Rectangle"
@@ -96,7 +157,7 @@ const BulkExpensesList = (props) => {
                                         placeholder="Dinner with client"
                                     />
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label
                                         htmlFor="total"
                                         className="form-label BulkEexpenses-Total">
@@ -119,7 +180,7 @@ const BulkExpensesList = (props) => {
                                 </div>
                                 <div className="mb-5">
                                     <img src={plusCircle}
-                                        class="close-plus-circle-line" />
+                                        className="close-plus-circle-line" />
                                     <span className="BulkExpenses-Advance">Advance</span>
                                 </div>
                                 <div className="mt-5 BulkExpenses">

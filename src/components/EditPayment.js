@@ -18,8 +18,8 @@ const EditPayment = (props) => {
                 </span>
             </div>
             <form>
-                <div class="row">
-                    <div class="mb-3">
+                <div className="row">
+                    <div className="mb-3">
                         <label htmlFor="amount" className="form-label Amount">Amount</label>
                         <input
                             type="text"
@@ -36,7 +36,7 @@ const EditPayment = (props) => {
                             />
                         </div>
                     </div>
-                    <div class="mb-3">
+                    <div className="mb-3">
                         <label htmlFor="date" className="form-label EditPayment-Date">Date</label>
                         <input
                             type="date"
@@ -44,7 +44,7 @@ const EditPayment = (props) => {
                             className="form-control EditPayment-Date-Rectangle"
                         />
                     </div>
-                    <div class="mt-5">
+                    <div className="mt-5">
                         <span className="EditPayment-Cancel-Rectangle EditPayment-Cancel">
                             Cancel
                         </span>

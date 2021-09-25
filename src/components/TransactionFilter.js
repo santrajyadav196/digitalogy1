@@ -6,7 +6,7 @@ import './TransactionFilter.css';
 const TransactionFilter = (props) => {
     return (
         <>
-            <div class="container">
+            <div className="container">
                 <div className="TransactionFilter-Rectangle">
                     <span className="Transaction-Filter">
                         Filter
@@ -15,7 +15,7 @@ const TransactionFilter = (props) => {
                         <img src={closeCircle} alt="close-mark" />
                     </span>
                     <form>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label
                                 htmlFor="date-range"
                                 className="form-label TransactionFilter-Date-Range">
@@ -31,7 +31,7 @@ const TransactionFilter = (props) => {
                                 <option value="3">Last Three Month</option>
                             </select>
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label
                                 htmlFor="client"
                                 className="form-label TransactionFilter-Client">
@@ -45,7 +45,7 @@ const TransactionFilter = (props) => {
 
                             </select>
                         </div>
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label
                                 htmlFor="project"
                                 className="form-label TransactionFilter-Project">
@@ -60,7 +60,7 @@ const TransactionFilter = (props) => {
                             </select>
                         </div>
 
-                        <div class="mb-3">
+                        <div className="mb-3">
                             <label
                                 htmlFor="transactions"
                                 className="form-label TransactionFilter-Transactions">

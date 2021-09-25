@@ -4,9 +4,6 @@ import closeCircle from '../assets/close-circle-line-3.svg';
 import radioButton1 from '../assets/radio-active.svg';
 import radioButton2 from '../assets/radio-button-line-2.svg';
 import questionMark from '../assets/question-line-1.svg';
-import percentMark from '../assets/percent-line.svg';
-import repeatLine from '../assets/repeat-line.svg';
-import addNote from '../assets/edit-box-line-1.svg';
 import dropDownArrow from '../assets/arrow-down-s-line-copy.svg';
 import autoCompleteChipsCircle from '../assets/close-circle-fill-2.svg';
 
@@ -121,7 +118,7 @@ const NewExpenseOne = (props) => {
                                         <div className="Tax-Included-Rectangle">
                                             <span className="Percentage-Rectangle">
                                                 <span className="Percentage-Color">
-                                                    <h3><i class="bi bi-percent"></i></h3>
+                                                    <h3><i className="bi bi-percent"></i></h3>
                                                 </span>
                                             </span>
                                             <span>

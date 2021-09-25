@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import closeCircle from '../assets/close-circle-line-3.svg';
 import checkbox from "../assets/checkbox-line-1.svg";
 import coloredCheckbox from '../assets/checkbox.svg';
-import coloredArrow from '../assets/arrow-path.svg';
+import coloredArrow from '../assets/green-arrow-path.svg';
 import rupeesSymbol from '../assets/rupees-path.svg';
 import fileAttachmentSymbol from '../assets/attachment-line-1.svg';
 import forMore from '../assets/delete-bin-6-line-copy.svg';
@@ -185,6 +185,7 @@ const EditBulkIncome = (props) => {
                             </span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </>

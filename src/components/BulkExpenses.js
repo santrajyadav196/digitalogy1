@@ -33,7 +33,7 @@ const BulkExpenses = (props) => {
                                 <img src={closeCircle} alt="close-mark" />
                             </span>
                             <form>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label htmlFor="assignTo" className="form-label BulkExpenses-AssignTo">Assign To</label>
                                     <input type="text"
                                         className="form-control BulkExpenses-AssignTo-Rectangle"
@@ -77,7 +77,7 @@ const BulkExpenses = (props) => {
                                         placeholder="Dinner with client"
                                     />
                                 </div>
-                                <div class="mb-3">
+                                <div className="mb-3">
                                     <label
                                         htmlFor="total"
                                         className="form-label BulkEexpenses-Total">
@@ -100,7 +100,7 @@ const BulkExpenses = (props) => {
                                 </div>
                                 <div className="mb-5">
                                     <img src={plusCircle}
-                                        class="close-plus-circle-line" />
+                                        className="close-plus-circle-line" />
                                     <span className="BulkExpenses-Advance">Advance</span>
                                 </div>
                                 <div className="mt-5 BulkExpenses">

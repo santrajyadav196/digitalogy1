@@ -16,7 +16,7 @@
 .BulkExpensesList-Name {
   width: 159px;
   height: 28px;
-  /* margin: 0 290px 6px 0; */
+  /* margin: 0 290px 0 0; */
   font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
@@ -31,14 +31,14 @@
 .BulkExpensesList-Edit {
   width: 24px;
   height: 24px;
-  margin: 0 20px 10px 253px;
+  margin: 0 6px 0 -6px;
   object-fit: contain;
 }
 
 .BulkExpensesList-Delete {
   width: 24px;
   height: 24px;
-  margin: 0 9px 10px 20px;
+  margin: 0px 6px 0px -6px;
   object-fit: contain;
 }
 
@@ -54,4 +54,39 @@
   line-height: normal;
   letter-spacing: normal;
   color: #7d7e82;
+}
+
+.BulkExpensesList-Purpose {
+  width: 207px;
+  height: 25px;
+  /* margin: 16px 243px 0 0; */
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+.BulkExpenses-downArrow {
+  width: 12px;
+  height: 13px;
+  margin: 2px 4px 5px 30px;
+  object-fit: contain;
+}
+
+.BulkExpensesList-Total {
+  width: 67px;
+  height: 23px;
+  margin: 0 0 0 2px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
 }

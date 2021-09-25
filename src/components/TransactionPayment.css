@@ -1,0 +1,214 @@
+.TransactionPayment-bg {
+  width: 1116px;
+  height: 768px;
+  padding: 0 0 24px;
+  border-radius: 31px;
+  background-color: #fbfbfc;
+}
+
+.TransactionPayment-Payments-Rectangle {
+  width: 106px;
+  height: 48px;
+  margin: 0 -18px 0 21px;
+  padding: 14px 21px 15px 21px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+.TransactionPayment-Payments {
+  width: 71px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.TransactionPayment-details {
+  width: 48px;
+  height: 20px;
+  margin: 14px 2px 14px 25px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Payment {
+  width: 91px;
+  height: 28px;
+  margin: 30px 925px 30px 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionPayment-Header-Rectangle {
+  width: 1056px;
+  height: 56px;
+  margin: 24px 30px 0px;
+  padding: 18px 247px 18px 24px;
+  border-radius: 12px;
+  background-color: #f6f7fb;
+}
+
+.TransactionPayment-Header-Client {
+  width: 42px;
+  height: 20px;
+  /* margin: 0 272px 0 0; */
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Header-Provider {
+  width: 58px;
+  height: 20px;
+  margin: 0px 0px 0px 100px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Header-Date {
+  width: 34px;
+  height: 20px;
+  margin: 0px -20px 0px 110px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Header-Amount {
+  width: 57px;
+  height: 20px;
+  margin: 0 0 0 180px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Rectangle {
+  width: 1056px;
+  height: 83px;
+  margin: 0px 0px 2px 30px;
+  padding: 19px 29px 19px 24px;
+  box-shadow: 0 8px 12px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionPayment-Client-Name {
+  width: 190px;
+  height: 20px;
+  margin: 0 204px 8px 0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionPayment-Client-text {
+  width: 200px;
+  height: 17px;
+  margin: 11px 0 0 0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionPayment-Provider-Name {
+  width: 180px;
+  height: 20px;
+  margin: 12px 0px 12px 45px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionPayment-Date-Dates {
+  width: 120px;
+  height: 20px;
+  margin: 12px 0px 12px 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionPayment-Rupees-Symbol {
+  width: 9px;
+  height: 14px;
+  margin: 18px 8px 3px 45px;
+}
+
+.TransactionPayment-Rupees {
+  width: 35px;
+  height: 20px;
+  margin: -20px 0 0 62px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionPayment-SendingFileSymbol {
+  width: 24px;
+  height: 24px;
+  margin: 11px 20px 10px 106px;
+  object-fit: contain;
+}

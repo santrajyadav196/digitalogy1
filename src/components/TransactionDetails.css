@@ -1,0 +1,412 @@
+.TransactionDetails-bg {
+  width: 1116px;
+  height: 1373px;
+  padding: 0 0 69px;
+  border-radius: 31px;
+  background-color: #fbfbfc;
+}
+
+.TransactionDetails-DPN-Rectangle {
+  width: 295px;
+  height: 48px;
+  margin: 24px 474px 30px 30px;
+  padding: 12px 35px 0 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionDetails-Details-Rectangle {
+  width: 83px;
+  height: 48px;
+  margin: 0 0 0 0;
+  padding: 12px 18px 14px 20px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+.TransactionDetails-Details {
+  width: 49px;
+  height: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.TransactionDetails-Payment {
+  width: 63px;
+  height: 20px;
+  margin: 14px 0px 14px 36px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionDetails-Notes {
+  width: 40px;
+  height: 20px;
+  margin: 14px 0 14px 41px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionDetails-details {
+  width: 69px;
+  height: 28px;
+  margin: 36px 205px 0 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Details-PDF-Rectangle {
+  width: 739px;
+  height: 510px;
+  margin: 24px 30px 30px;
+  padding: 16px 16px 33px 40px;
+  /* display: inline-block; */
+  border-radius: 8.4px;
+  box-shadow: 0 6px 8px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionDetails-Details-pdf-Rectangle {
+  width: 646px;
+  height: 443px;
+  margin: -428px 0 0 10px;
+  box-shadow: 0 6px 8px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionDetails-Details-pdf-Oval {
+  width: 48px;
+  height: 48px;
+  margin: -8px 0 409px 640px;
+  border-radius: 50%;
+  padding: 10px 9px 9px 10px;
+  box-shadow: 0 8px 12px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionDetails-threeDot {
+  width: 24px;
+  height: 24px;
+}
+
+.TransactionDetails-Payment-Rectangle {
+  width: 287px;
+  height: 510px;
+  margin: 24px 40px 30px;
+  padding: 24px 16px 159px;
+  border-radius: 8.4px;
+  box-shadow: 0 6px 8px 0 rgba(238, 241, 245, 0.89);
+  background-color: #fff;
+}
+
+.TransactionDetails-Payments {
+  width: 92px;
+  height: 25px;
+  margin: 0 163px 31px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Payment-Range-Input-Rectangle {
+  width: 255px;
+  height: 6px;
+  margin: 20px 0 15px;
+  background-color: #6d5ed3;
+}
+
+.TransactionDetails-Payment-Money {
+  width: 147px;
+  height: 17px;
+  margin: 15px 108px 0 0;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Payment-History {
+  width: 63px;
+  height: 25px;
+  margin: 30px 192px 12px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Payment-Line {
+  width: 255px;
+  height: 1px;
+  margin: 16px 0 18px;
+  border: solid 1px #b2b6c5;
+}
+
+.TransactionDetails-Payment-Checkbox {
+  width: 18px;
+  height: 18px;
+  /* margin: 5px 0px 8px 0; */
+  object-fit: contain;
+}
+
+.TransactionDetails-Payment-Payment-Mode {
+  width: 212px;
+  height: 20px;
+  margin: 0 0 8px 12px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Payment-Payment-Mode-Date {
+  width: 131px;
+  height: 17px;
+  margin: 10px 81px 0 31px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7d7e82;
+}
+
+.TransactionDetails-Payment-IncomeCreated-Checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 24px 0px 8px 0;
+  object-fit: contain;
+}
+
+.TransactionDetails-Payment-Income-Created {
+  width: 115px;
+  height: 20px;
+  margin: -26px 16px 6px 30px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetails-Payment-VerticalLine-Rectangle {
+  width: 1px;
+  height: 145px;
+  margin: -102px 245px 0 8px;
+  opacity: 0.2;
+  border: solid 0.5px #979797;
+}
+
+.TransactionDetailsSource {
+  width: 53px;
+  height: 20px;
+  margin: 0px 6px 6px 30px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetailsSource-Rectangle {
+  width: 525px;
+  height: 56px;
+  margin: 6px 0 0 30px;
+  padding: 19px 34px 17px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionDetailsDescription {
+  width: 80px;
+  height: 20px;
+  margin: 0px 6px 6px 30px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetailsDescription-Rectangle {
+  width: 525px;
+  height: 56px;
+  margin:  6px 0 0 30px;
+  padding: 18px 30px 18px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionDetailsAmount {
+  width: 57px;
+  height: 20px;
+  margin:  0px 6px 6px 30px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetailsAmount-Rectangle {
+  width: 251px;
+  height: 56px;
+  margin: 6px 0 0 30px;
+  padding: 8px 9px 8px 20px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionDetailsDate {
+  width: 34px;
+  height: 20px;
+  margin: 0px 6px 6px -252px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetailsDate-Rectangle {
+  width: 251px;
+  height: 56px;
+  margin: 6px 0 0 -266px;
+  padding: 16px 16px 16px 14px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionDetailsAssign-To {
+  width: 68px;
+  height: 20px;
+  margin: 0 12px 0px 30px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.TransactionDetailsAssign-To-Rectangle {
+  width: 525px;
+  height: 56px;
+  margin: 12px 0 0 30px;
+  padding: 8px 360px 8px 16px;
+  border-radius: 12px;
+  border: solid 1px #7d849e;
+  background-color: #fff;
+}
+
+.TransactionDetails-CancelChanges-Rectangle {
+  width: 251px;
+  height: 56px;
+  margin: 26px 23px 0 30px;
+  padding: 14px 74px;
+  border-radius: 12px;
+  border: solid 1px #6d5ed3;
+  background-color: #fff;
+}
+
+.TransactionDetails-CancelChanges {
+  width: 103px;
+  height: 20px;
+  margin: 0 0 0 -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d5ed3;
+}
+
+.TransactionDetails-SaveChanges-Rectangle {
+  width: 251px;
+  height: 56px;
+  margin: 25px 0px 0 -75px;
+  padding: 14px 74px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+.TransactionDetails-SaveChanges {
+  width: 103px;
+  height: 20px;
+  margin: 0 0 0 -18px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
