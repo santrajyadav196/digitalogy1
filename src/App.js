@@ -13,6 +13,8 @@ import TransactionDetails from './components/TransactionDetails';
 import TransactionDetails3dot from './components/TransactionDetails3dot';
 import TransactionPayment from './components/TransactionPayment';
 import TransactionNotes from './components/TransactionNotes';
+import Proposals from './components/Proposals';
+
 
 
 
@@ -21,6 +23,7 @@ import TransactionNotes from './components/TransactionNotes';
 function App() {
   return (
     <div>
+      <Proposals />
       <Transaction />
       <NewExpense />
       <NewExpenseOne />

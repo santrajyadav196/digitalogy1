@@ -1,0 +1,93 @@
+.Proposals-bg {
+  width: 1116px;
+  height: 768px;
+  padding: 0 0 79px;
+  border-radius: 31px;
+  background-color: #fbfbfc;
+}
+
+.Navbar-Rectangle {
+  width: 1116px;
+  height: 80px;
+  margin: 0 0 24px;
+  padding: 16px 60px 16px 30px;
+  border-radius: 31px;
+  background-color: #fbfbfc;
+}
+
+.Navbar-Unity-Name {
+  width: 121px;
+  height: 28px;
+  margin: 10px 0 10px 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.Navbar-Search {
+  width: 24px;
+  height: 24px;
+  margin: 10px 0px 10px 6px;
+  object-fit: contain;
+}
+
+.Navbar-Notification {
+  width: 24px;
+  height: 24px;
+ margin: 10px 0px 10px -18px;
+  object-fit: contain;
+}
+
+.Navbar-Create-Rectangle {
+  width: 124px;
+  height: 48px;
+  margin: 0 0 0 -42px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+.Navbar-Add {
+  width: 24px;
+  height: 24px;
+  /* margin: 0 0 0 0; */
+  object-fit: contain;
+}
+
+.Navbar-Create {
+  width: 49px;
+  height: 20px;
+  margin: 0 0 0 12px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.Navbar-Play-Icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 30px;
+  object-fit: contain;
+}
+
+
+.Proposals-Add-NewProposals-Rectangle {
+  width: 168px;
+  height: 48px;
+  margin: 24px 746px 24px 30px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background-color: #6d5ed3;
+}
+
+
