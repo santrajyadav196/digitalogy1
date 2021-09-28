@@ -18,6 +18,7 @@ import coloredEditSymbol from '../assets/coloredEdit.svg';
 import coloredDeleteSymbol from '../assets/coloredDelete.svg';
 
 
+
 import './Transaction.css';
 
 
